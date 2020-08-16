@@ -59,7 +59,7 @@ Projeto semanal do curso feito em conjunto com mais 4 alunos que consistia em re
 <br>
 
 ## Co-autores
-🤝[(Walter Andrade)](https://github.com/walteraandrade)
-🤝[(Wagner Cardoso)](https://github.com/wcardosos)
-🤝[(Max Assis)](https://github.com/maxassis)
+🤝[(Walter Andrade)](https://github.com/walteraandrade)<br>
+🤝[(Wagner Cardoso)](https://github.com/wcardosos)<br>
+🤝[(Max Assis)](https://github.com/maxassis)<br>
 🤝[(Juliana Berdeville)](https://github.com/JulianaBerdeville)
