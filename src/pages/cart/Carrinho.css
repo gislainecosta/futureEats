@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    letter-spacing: -0.39px;
+    color: #000000;
+    font-size: 16px;
+}
+
+.tela-toda{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#endereco{
+    width: 100vw;
+    height: 14.491vh;
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: 0.191vh;
+}
+
+#lista-carrinho {
+    width: 100vw;
+    margin:0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+#frete{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    align-items: end;
+    margin-bottom: 3.576vh;
+}
+
+#frete>p {
+    font-family: Roboto;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.108.333vw;
+    color: #000000;
+    font-size: 16px;
+    margin-right: 4.444vw;
+}
+
+#frete>p:first-child {
+    grid-area: 1/2/2/3;
+    text-align: end;
+    margin-top: 4.444vw;
+}
+
+#frete>p:nth-child(2) {
+    grid-area: 2/1/3/2;
+    margin-left: 4.444vw;
+}
+
+#frete>p:last-child {
+    grid-area: 2/2/3/3;
+    font-size: 18px;
+    color: #5cb646;
+    text-align: end;
+}
+
+#carrinho-vazio{
+    width: 82.22vw;
+    height: 3.432vh;
+    opacity: 0.89;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.10833vw;
+    text-align: center;
+    color: #000000;
+    margin-top: 3.813vh
+}
+
+#endereco>p, #dados-restaurante-cart>p{
+    width: 91.111vw;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.108.333vw;
+}
+
+#endereco > p:first-child{
+    color: #b8b8b8;
+    margin: 3.051vh 0 1.525vh 4.444vw;
+}
+
+#endereco>p:last-child {
+    color: #000000;
+    margin-left: 4.444vw;
+}
+
+#dados-restaurante-cart>p{
+    margin-left: 4.444vw;
+    color: #b8b8b8;
+}
+
+#dados-restaurante-cart>p:last-child {
+    margin-top: 1.525vh;
+    margin-bottom: 3.051vh;
+}
+
+#dados-restaurante-cart>p:first-child{
+    margin: 4.444vw 0 1.525vh 4.444vw;
+    color: #5cb646;
+}
+
+#pagamento{
+    margin: 0 4.444vw;
+}
+
+#pagamento>p {
+    margin-bottom: 1.525vh;
+}
+
+
